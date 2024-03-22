@@ -1,0 +1,23 @@
+h1 {
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.container-pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-pokemon {
+  display: flex;
+}
+.image-pokemon {
+  display: flex;
+  align-self: center;
+  max-width: 20rem;
+}
+.list-group-flush {
+  display: flex;
+}
+
+

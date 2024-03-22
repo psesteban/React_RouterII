@@ -1,0 +1,20 @@
+.container-search {
+display: flex;
+flex-direction: column;
+}
+
+.mini-image {
+    align-self: center;
+    max-width: 10rem;
+    margin: 2rem;
+}
+
+.detail {
+    align-self: center;
+    max-width: 10rem;
+}
+
+button {
+    align-self: center;
+    max-width: 10rem;
+}

@@ -25,7 +25,7 @@ const PokemonProvider = ({ children }) => {
   const fetchPokemons = async () => {
     setLoading(true)
     try {
-      const response = await axios.get('https://pokeapi.co/api/v2/pokemon/?limit=400&offset=400')
+      const response = await axios.get('https://pokeapi.co/api/v2/pokemon/?limit=400&offset=150')
       setPokemons(response.data.results)
     } catch (error) {
       setError(error)
